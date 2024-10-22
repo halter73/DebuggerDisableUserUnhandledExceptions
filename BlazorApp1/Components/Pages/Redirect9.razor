@@ -1,0 +1,29 @@
+﻿@page "/redirect9"
+@attribute [StreamRendering]
+
+@inject NavigationManager NavigationManager
+
+<PageTitle>Redirect9</PageTitle>
+
+<h1>Redirect9 Streaming</h1>
+
+@if (initialized) {
+    @CalledWhileRendering()
+}
+
+@code {
+    bool initialized = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(100);
+        initialized = true;
+    }
+
+    private string CalledWhileRendering()
+    {
+        throw new Exception();
+        NavigationManager.NavigateTo("/");
+        return "You shouldn't see this.";
+    }
+}
