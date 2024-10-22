@@ -1,0 +1,16 @@
+﻿@page "/redirect2"
+
+@inject NavigationManager NavigationManager
+
+<PageTitle>Redirect2</PageTitle>
+
+<h1>Redirect2</h1>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        throw new Exception();
+        await Task.Delay(100);
+        NavigationManager.NavigateTo("/");
+    }
+}

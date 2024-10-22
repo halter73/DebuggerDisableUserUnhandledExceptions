@@ -1,0 +1,15 @@
+﻿@page "/redirect4"
+
+@inject NavigationManager NavigationManager
+
+<PageTitle>Redirect4</PageTitle>
+
+<h1>Redirect4</h1>
+
+@code {
+    protected override void OnParametersSet()
+    {
+        throw new Exception();
+        NavigationManager.NavigateTo("/");
+    }
+}

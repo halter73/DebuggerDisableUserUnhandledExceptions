@@ -1,0 +1,18 @@
+﻿@page "/redirect8"
+
+@inject NavigationManager NavigationManager
+
+<PageTitle>Redirect8</PageTitle>
+
+<h1>Redirect8</h1>
+
+@CalledWhileRendering()
+
+@code {
+    private string CalledWhileRendering()
+    {
+        throw new Exception();
+        NavigationManager.NavigateTo("/");
+        return "You shouldn't see this.";
+    }
+}

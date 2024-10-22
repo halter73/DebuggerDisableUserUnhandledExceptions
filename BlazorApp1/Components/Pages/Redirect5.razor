@@ -1,0 +1,16 @@
+﻿@page "/redirect5"
+
+@inject NavigationManager NavigationManager
+
+<PageTitle>Redirect5</PageTitle>
+
+<h1>Redirect5</h1>
+
+@code {
+    protected override Task OnParametersSetAsync()
+    {
+        throw new Exception();
+        NavigationManager.NavigateTo("/");
+        return Task.CompletedTask;
+    }
+}

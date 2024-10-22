@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35416.250 main
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebuggerDisableUserUnhandledExceptions", "DebuggerDisableUserUnhandledExceptions\DebuggerDisableUserUnhandledExceptions.csproj", "{C9A4ADE0-16D2-49AC-B40A-D9C0D8803DC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{59861472-D3C4-4593-BE8A-33CFB5AD1360}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1", "BlazorApp1\BlazorApp1.csproj", "{CFC3AF6C-F42B-4EEB-8BDF-F09387C45048}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9A4ADE0-16D2-49AC-B40A-D9C0D8803DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9A4ADE0-16D2-49AC-B40A-D9C0D8803DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9A4ADE0-16D2-49AC-B40A-D9C0D8803DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9A4ADE0-16D2-49AC-B40A-D9C0D8803DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59861472-D3C4-4593-BE8A-33CFB5AD1360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59861472-D3C4-4593-BE8A-33CFB5AD1360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59861472-D3C4-4593-BE8A-33CFB5AD1360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59861472-D3C4-4593-BE8A-33CFB5AD1360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC3AF6C-F42B-4EEB-8BDF-F09387C45048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC3AF6C-F42B-4EEB-8BDF-F09387C45048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC3AF6C-F42B-4EEB-8BDF-F09387C45048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC3AF6C-F42B-4EEB-8BDF-F09387C45048}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
