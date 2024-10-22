@@ -9,7 +9,6 @@
 @code {
     protected override async Task OnParametersSetAsync()
     {
-        throw new Exception();
         await Task.Delay(100).ConfigureAwait(false);
         NavigationManager.NavigateTo("/");
     }
